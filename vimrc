@@ -13,6 +13,7 @@ filetype on
 set autoindent
 filetype plugin indent on
 
+set encoding=utf-8
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -26,8 +27,6 @@ set incsearch
 set backspace=indent,eol,start
 set hidden
 set textwidth=79
-"set list
-"set listchars=tab:>,trail=.
 set pastetoggle=<F2>
 
 set visualbell
@@ -40,12 +39,13 @@ set showcmd
 set hidden
 set cursorline
 set scrolloff=3
-
 "set nu
 set ruler
 set foldmethod=indent
 set foldlevel=99
 set completeopt=menuone,longest,preview
+set laststatus=2
+set statusline=%t\ %y
 
 if has('autocmd')
     autocmd FocusLost * :wa
