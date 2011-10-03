@@ -26,8 +26,9 @@ set hlsearch
 set incsearch
 set backspace=indent,eol,start
 set hidden
-set textwidth=79
+"set textwidth=79
 set pastetoggle=<F2>
+set nowrap
 
 set visualbell
 set noerrorbells
